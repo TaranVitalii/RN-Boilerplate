@@ -1,0 +1,14 @@
+{
+    "prettier.configPath": ".prettierrc",
+    "eslint.lintTask.enable": true,
+    "eslint.run": "onSave",
+    "eslint.format.enable": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+}
